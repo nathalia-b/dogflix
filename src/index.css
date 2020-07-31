@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+ /*--primary: #2A7AE4;*/
+  --primary: #5454B4;
+  --black: #000000;
+  --blackLighter: #9E9E9E;
+  --grayLight: #F5F5F5;
+  --grayMedium: #e5e5e5; 
+  --white: #FFFFFF;
+  --frontEnd: #6BD1FF;
+  --backEnd: #00C86F;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+} 
+.Erro{
+    width: 100%;
+    max-width: 490px;
+    border-top: orangered;
+    background: black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    position: fixed;
+  }
+  @media (max-width: 800px) {
+    .Erro {
+      max-width: 105px;
+    }
+  }
+
+#root{
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
+}
