@@ -9,7 +9,9 @@ function CadastraVideo(){
             Página de Cadastro de Video;
 
             <Link to="/cadastro/categoria">
-               CADASTRAR CATEGORIA
+              <divTal>
+                  cadastrooooooo
+                </divTal>
             </Link>
         </PageDefault>
     )
