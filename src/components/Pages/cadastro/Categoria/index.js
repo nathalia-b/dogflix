@@ -1,10 +1,10 @@
-/* eslint-disable indent */
 import React, { useState, useEffect } from 'react';
 // import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../PageDefault';
 import FormField from '../../../FormField';
 import Button from '../../../Button';
+import useForm from '../../../../hooks/useForm';
 
 function CadastroCategoria() {
     const valoresIniciais = {
@@ -12,30 +12,17 @@ function CadastroCategoria() {
       descricao: '',
       cor: '',
     };
+    const {handleChange, values, clearForm} = useForm(valoresIniciais)
     const [categorias, setCategorias] = useState([]);
-    const [values, setValues] = useState(valoresIniciais);
-
-    function setValue(chave, valor) {
-      // chave: nome, descricao, bla, bli
-      setValues({
-        ...values,
-        [chave]: valor, // nome: 'valor'
-      });
-    }
-
-    function handleChange(infosDoEvento) {
-      setValue(
-        infosDoEvento.target.getAttribute('name'),
-        infosDoEvento.target.value,
-      );
-    }
-    /* O useEffect é chamado quando queremos que algum efeito ''colateral'' aconteça
-    Recebe dois parâmetros, o primeiro sendo o que quer que aconteça e
-    o segundo quando queremos que aconteça */
-
+     
     useEffect(() => {
-      if (window.location.href.includes('localhost')) {
-        const URL = 'http://localhost:8080/categorias';
+      /* O useEffect é chamado quando queremos que algum efeito ''colateral'' aconteça
+      Recebe dois parâmetros, o primeiro sendo o que quer que aconteça e
+      o segundo quando queremos que aconteça */
+     
+        const URL = window.location.href.includes('localhost')
+        ? 'http://localhost:8080/categorias'
+        : 'https://dogflix.herokuapp.com/categorias';
         fetch(URL)
           .then(async (respostaDoServer) => {
             if (respostaDoServer.ok) {
@@ -45,26 +32,23 @@ function CadastroCategoria() {
             }
             throw new Error('Não foi possível pegar os dados');
           });
-      }
-    }, []);
+      }, []); /*End_of_useEffect*/
 
     return (
       <PageDefault>
-        <h1>
-          Cadastro de Categoria:
-          {values.nome}
-        </h1>
+          <h1>
+            Cadastro de Categoria:
+            {values.nome}
+          </h1>
 
         <form onSubmit={function handleSubmit(infosDoEvento) {
             infosDoEvento.preventDefault();
             setCategorias([
               ...categorias,
-              values,
-            ]);
-
-            setValues(valoresIniciais);
-        }}
-        >
+                 values,
+            ]);/*End_of_setCategorias*/
+            clearForm(); /*Clears form's input*/
+        }}>{/*End_of_submit*/}
 
           <FormField
             label="Nome da Categoria"
@@ -94,11 +78,7 @@ function CadastroCategoria() {
             Cadastrar
           </Button>
         </form>
-        <div>
-          {/* Cargando... */}
-          Loading...
-        </div>
-
+        
         <ul>
           {categorias.map((categoria) => (
             <li key={`${categoria.id}`}>
@@ -111,7 +91,8 @@ function CadastroCategoria() {
           Ir para home
         </Link>
       </PageDefault>
-    );
+
+    );/*End_of_Return*/
   }
 
   export default CadastroCategoria;
