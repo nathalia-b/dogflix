@@ -9,7 +9,7 @@ function Menu() {
     <nav className="Menu">
      
       <Link to="/">
-         <img className="Logo" src={Logo} alt="Aluraflix logo" />
+         <img className="Logo" src={Logo} alt="Dogflix logo" />
       </Link>
 
       <Button as={Link} className="ButtonLink" to="/cadastro/video">
