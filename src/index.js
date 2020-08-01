@@ -14,6 +14,7 @@ ReactDOM.render(
       <Route path="/cadastro/video" component={CadastraVideo} />
       <Route path="/cadastro/categoria" component={CadastraCategoria} />
       <Route path="/" component={Home} exact />
+      
 
       <Route component={Pagina404} />
 
