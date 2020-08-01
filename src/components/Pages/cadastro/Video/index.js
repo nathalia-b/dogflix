@@ -6,12 +6,11 @@ function CadastraVideo(){
 
     return(
         <PageDefault>
-            Página de Cadastro de Video;
+            <h1>Página de Cadastro de Video:</h1>
 
             <Link to="/cadastro/categoria">
-              <divTal>
-                  cadastrooooooo
-                </divTal>
+                  Cadastrar Categoria
+
             </Link>
         </PageDefault>
     )
