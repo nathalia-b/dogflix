@@ -7,6 +7,7 @@ import ImagemDeErro1 from '../../../assets/img/erro1.png';
 import ImagemDeErro2 from '../../../assets/img/erro2.png';
 import ImagemDeErro3 from '../../../assets/img/erro3.png';
 import ImagemDeErro4 from '../../../assets/img/erro4.png';
+import ImagemDeErro5 from '../../../assets/img/erro4.png';
 
 import styled from 'styled-components';
 
@@ -28,7 +29,7 @@ function aux404(ImagemDeErro){
         <Imagem className="Erro" src={ImagemDeErro} alt="Erro1" />
       
       <ButtonHome as={Link} className="ButtonLink" to="/">
-      Voltar
+      Início
     </ButtonHome>
     </PageDefault>
   );
@@ -37,7 +38,7 @@ function aux404(ImagemDeErro){
 
 function Pagina404() {
   const min = Math.ceil(1);
-  const max = Math.floor(4);
+  const max = Math.floor(5);
   const i = Math.floor(Math.random() * (max - min + 1)) + min; 
   
   console.log(i);
@@ -53,9 +54,13 @@ function Pagina404() {
     return (
           aux404(ImagemDeErro3)    
     );
-  }else{
+  }else if(i === 4){
     return (
           aux404(ImagemDeErro4)    
+    );
+  }else{
+    return (
+          aux404(ImagemDeErro5)    
     ); 
   }
   
