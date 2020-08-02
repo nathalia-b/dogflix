@@ -1,6 +1,8 @@
 import config from '../config';
 
-const URL_CATEGORIES = `https://dogflix.herokuapp.com/categorias/`;
+const URL_CATEGORIES = window.location.href.includes('localhost')
+? 'https://localhost:8080/categorias'
+: 'https://dogflix.herokuapp.com/categorias';
 
 function getAll() {
   return fetch(`${URL_CATEGORIES}`)
