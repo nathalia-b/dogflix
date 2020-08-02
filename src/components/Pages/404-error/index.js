@@ -13,16 +13,12 @@ import styled from 'styled-components';
 
 const Imagem = styled.img`
     width: 100%;
-    max-width: 1010px;
-    border-top: orange;
-    background: red;
-
+    max-width: 940px;
+    background: black;
     display: flex;
     justify-content: center;
     align-items: center;
-  
     position: center;
-   
   }`;
   
 function aux404(ImagemDeErro){
