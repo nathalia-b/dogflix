@@ -3,38 +3,85 @@
     {
       "id": 1,
       "titulo": "Food Review",
-      "cor": "#6bd1ff",
+      "cor": "#3939cf",
       "link_extra": {
-          
-          "text": "Com os mais famosos críticos gastronômicos do mundo animal",
-          "url": "/"
-          
-        }
+        "text": "Com os mais famosos críticos gastronômicos do mundo animal",
+        "url": "/"
+      }
     },
     {
       "id": 2,
       "titulo": "Punk!",
-      "cor": "#6bd1ff",
+      "cor": "#6e6edc",
       "link_extra": {
-          
         "text": "Doguinhos que são pura revolta e sem tempo para brincadeiras",
         "url": "/"
-        
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Relaxante",
+      "cor": "#b0b0ec",
+      "link_extra": {
+        "text": "Precisa de um descanso? Os doguinhos especialistas vão te ajudar",
+        "url": "/"
       }
     }
-   ],
-   "videos":[
-     {
+  ],
+  "videos": [
+    {
       "id": 1,
       "categoriaId": 1,
       "título": "Dúvidas para escolher sua alimentação na quarentena?",
-      "url": "https://www.youtube.com/watch?v=-jveWcwVOhM"      
-   },{
-    "id": 2,
-    "categoriaId": 2,
-    "titulo": "Chihuahua extremamente perigoso",
-    "url": "https://www.youtube.com/watch?v=tKjCjr0njHw"    
-   }
-     
-   ]
+      "url": "https://www.youtube.com/watch?v=-jveWcwVOhM"
+    },
+    {
+      "id": 2,
+      "categoriaId": 2,
+      "titulo": "Chihuahua extremamente perigoso",
+      "url": "https://www.youtube.com/watch?v=tKjCjr0njHw"
+    },
+    {
+      "titulo": "Tucker e Echo com comidinhas novas.",
+      "url": "https://www.youtube.com/watch?v=cOm5iA5TwgI",
+      "categoriaId": 1,
+      "id": 3
+    },
+    {
+      "titulo": "Kakoa e Sky experimentam frutas cítricas.",
+      "url": "https://www.youtube.com/watch?v=29qpGwPLUZI",
+      "categoriaId": 1,
+      "id": 3
+    },
+    {
+      "titulo": "Tucker e sua esposa Journee avaliam algumas comidinhas",
+      "url": "https://www.youtube.com/watch?v=BT94ZwTGSQU&",
+      "categoriaId": 1,
+      "id": 4
+    },
+    {
+      "titulo": "Doguinho gordo protestando contra dieta",
+      "url": "https://www.youtube.com/watch?v=u5643U3qS8g",
+      "categoriaId": 2,
+      "id": 5
+    },
+    {
+      "titulo": "Raça perigosíssima vs Pitbull",
+      "url": "https://www.youtube.com/watch?v=Rjba0DeTUpo",
+      "categoriaId": 2,
+      "id": 6
+    },
+    {
+      "titulo": "Tutorial de ASMR com Kakoa",
+      "url": "https://www.youtube.com/watch?v=adRAtNLGpW",
+      "categoriaId": 3,
+      "id": 7
+    },
+    {
+      "titulo": "Tutorial de ASMR com Kakoa",
+      "url": "https://www.youtube.com/watch?v=adRAtNLGpWo",
+      "categoriaId": 3,
+      "id": 8
+    }
+  ]
 }
