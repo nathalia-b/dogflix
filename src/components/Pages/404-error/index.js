@@ -13,7 +13,7 @@ import styled from 'styled-components';
 
 const Imagem = styled.img`
     width: 100%;
-    max-width: 800px;
+    max-width: 850px;
     background: black;
     display: flex;
     justify-content: center;

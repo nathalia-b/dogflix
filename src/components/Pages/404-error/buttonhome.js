@@ -2,9 +2,7 @@ import styled from 'styled-components';
 
 
 const ButtonHome = styled.button`
-   
     width: 10%;
-    max-width: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,16 +14,12 @@ const ButtonHome = styled.button`
     box-sizing: border-box;
     cursor: pointer;
     padding: 5px 13px;
-   
     text-decoration: none;
-   
-    transition: opacity .4s;
+    transition: opacity .3s;
   }
   .ButtonLink:hover,
   .ButtonLink:focus {
     opacity: .10;
-
-
   }
 `;
 export default ButtonHome;
