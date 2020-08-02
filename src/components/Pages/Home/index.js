@@ -3,23 +3,8 @@ import React, { useEffect, useState} from 'react';
 import BannerMain from '../../BannerMain';
 import Carousel from '../../Carousel';
 import PageDefault from '../../../components/PageDefault';
-//import styled from 'styled-components';
 import categoriasRepository from '../../../repositories/categorias';
-//import loadingimg from '../../../components/PageDefault/loadingimg.gif';
 
-/*const Imagem = styled.img`
-    width: 100%;
-    max-width: 490px;
-    border-top: orangered;
-    background: black;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    position: fixed;
-    border: 12px solid #fff;
-  }`;*/
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
 
@@ -67,27 +52,7 @@ function Home() {
         );
       })}
 
-      {/* <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription="O que"
-      />
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
-      />
-      <Carousel
-        category={dadosIniciais.categorias[1]}
-      />
-      <Carousel
-        category={dadosIniciais.categorias[2]}
-      />
-      <Carousel
-        category={dadosIniciais.categorias[3]}
-      />
-      <Carousel
-        category={dadosIniciais.categorias[4]}
-      /> */}
+      
     </PageDefault>
   );
 }
