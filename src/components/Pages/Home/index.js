@@ -5,6 +5,7 @@ import Carousel from '../../Carousel';
 import PageDefault from '../../../components/PageDefault';
 import categoriasRepository from '../../../repositories/categorias';
 import loadingimage from '../../../assets/img/loadingimage.gif';
+
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
 
@@ -23,7 +24,7 @@ function Home() {
   return (
     
     <PageDefault paddingAll={0}>
-      {dadosIniciais.length === 0 && (<div><img className="loadingimg" src={loadingimage} alt="Dogflix logo" /></div>)}
+      {dadosIniciais.length === 0 && (<div><center>aaaaa<img className="loadingimg" src={loadingimage} alt="Dogflix logo" /></center></div>)}
 
       {dadosIniciais.map((categoria, indice) => {
         if (indice === 0) {
