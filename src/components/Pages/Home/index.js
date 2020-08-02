@@ -24,7 +24,7 @@ function Home() {
   return (
     
     <PageDefault paddingAll={0}>
-      {dadosIniciais.length === 0 && (<div><center><img className="loadingimg" src={loadingimage} alt="Dogflix logo" /></center></div>)}
+      {dadosIniciais.length === 0 && (<div><center><img className="loadingimg" src={loadingimage} alt="Dogflix loading" /></center></div>)}
 
       {dadosIniciais.map((categoria, indice) => {
         if (indice === 0) {
