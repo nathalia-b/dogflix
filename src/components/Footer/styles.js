@@ -11,7 +11,21 @@ export const FooterBase = styled.footer`
   color: var(--white);
   text-align: center;
   
-  @media (max-width: 800px) {
-    margin-bottom: 50px;
+  .Logo {
+    max-width: 168px;
+  }
+  @media (max-width: 900px) {
+    .Logo1 {
+      max-width: 70px;
+      max-height: 20px;
+    }
+    .Logo2{
+      max-width: 40px;
+      max-height: 20px;
+    }
+    .Logo3{
+      max-width: 10px;
+      max-height: 10px;
+    }
   }
 `;
