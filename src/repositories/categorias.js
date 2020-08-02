@@ -1,5 +1,3 @@
-import config from '../config';
-
 const URL_CATEGORIES = window.location.href.includes('localhost')
 ? 'http://localhost:8080/categorias'
 : 'https://dogflix.herokuapp.com/categorias';
