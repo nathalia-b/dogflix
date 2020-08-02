@@ -24,23 +24,6 @@ body {
 a {
   color: inherit;
 } 
-.Erro{
-    width: 100%;
-    max-width: 490px;
-    border-top: orangered;
-    background: black;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    position: fixed;
-  }
-  @media (max-width: 800px) {
-    .Erro {
-      max-width: 105px;
-    }
-  }
 
 #root{
   min-height: calc(100vh - var(--bodyPaddingTop));
