@@ -13,7 +13,7 @@ function Help() {
 
             <p>Então clica <b><a href="https://github.com/nathalia-b/dogflix/blob/master/AJUDE.md">AQUI</a></b> pra ver alguns links de projetos de resgate e cuidado que precisam de apoio para se manterem funcionando.<br/></p>
             Ah, e os projetos são de diversos estados e aceitam <b>diversas</b> formas de ajuda!<br/><br/>
-            <a href="https://github.com/nathalia-b/dogflix/blob/master/AJUDE.md"><img className="Logo" src={walk}  alt="Dogflix logo" /></a>
+            <a href="https://github.com/nathalia-b/dogflix/blob/master/AJUDE.md"><img className="dog" src={walk}  alt="dog" /></a>
             
         
             </center>
