@@ -1,19 +1,22 @@
 import React from 'react';
 import PageDefault from '../../PageDefault';
 import '../../../index.css';
-import Button from '../../Button'
+import walk from '../../../assets/img/walk.gif'; 
 
 function Help() {
     
     return(
         <PageDefault>
-            <h1><center>Quer ajudar doguinhos?</center></h1>
-            <h2><center>E outros animaizinhos também?</center></h2>
+            <center>
+            <h1>Quer ajudar doguinhos?</h1>
+            <h3>E outros animaizinhos também?</h3>
 
-            <p><center>Aqui estão alguns links de projetos que precisam de ajuda para se manterem funcionando:<br /><br /></center></p>
-            <center><Button>
-                <a href="https://github.com/nathalia-b/dogflix/blob/master/AJUDE.md">Clique aqui para ver os links :)</a>
-            </Button></center>
+            <p>Então clica <b><a href="https://github.com/nathalia-b/dogflix/blob/master/AJUDE.md">AQUI</a></b> pra ver alguns links de projetos de resgate e cuidado que precisam de apoio para se manterem funcionando.<br/></p>
+            Ah, e os projetos são de diversos estados e aceitam <b>diversas</b> formas de ajuda!<br/><br/>
+            <a href="https://github.com/nathalia-b/dogflix/blob/master/AJUDE.md"><img className="Logo" src={walk}  alt="Dogflix logo" /></a>
+            
+        
+            </center>
          </PageDefault>
     )
   

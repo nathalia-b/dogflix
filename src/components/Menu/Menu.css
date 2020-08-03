@@ -10,7 +10,7 @@
 .Dog{
   max-width: 130px;
   position: relative;
-  top: 25px; left: 17px; 
+  top: 26px; left: 17px; 
 }
   @media (max-width: 800px) {
     .Dog {
