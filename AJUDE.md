@@ -5,7 +5,7 @@
 </p>
 
 # Links de projetos que precisam de ajuda:
-##### As ajudas variam. Podem ser em dinheiro, comida, servir como lar solidário, etc. 
+##### Os projetos são de diversos estados do Brasil e aceitam ajuda de VÁRIAS formas diferentes. Dá uma olhada!
 ## Projetos que você pode apoiar:
 
 ### Gatinhos da UFRN
