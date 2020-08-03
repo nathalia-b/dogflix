@@ -7,5 +7,7 @@ Projeto desenvolvido durante a Imersão React da [Alura](https://github.com/imer
 ## Como rodar?
 Após baixar o projeto, acesse via terminal e rode:
 
->npm install
->npm run dev
+```sh
+npm install
+npm run dev
+```
