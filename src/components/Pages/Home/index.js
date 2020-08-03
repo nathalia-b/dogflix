@@ -5,6 +5,20 @@ import Carousel from '../../Carousel';
 import PageDefault from '../../../components/PageDefault';
 import categoriasRepository from '../../../repositories/categorias';
 import loadingimage from '../../../assets/img/loadingimage.gif';
+import styled from 'styled-components';
+
+const Loading = styled.img`
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: center; 
+
+    @media (max-width: 800px) {
+      padding-top: 100px;
+  }
+  }`
 
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
@@ -24,7 +38,7 @@ function Home() {
   return (
     
     <PageDefault paddingAll={0}>
-      {dadosIniciais.length === 0 && (<div><center><img className="loadingimg" src={loadingimage} alt="Dogflix loading" /></center></div>)}
+      {dadosIniciais.length === 0 && (<div><center><Loading className="loadingimg" src={loadingimage} alt="Dogflix loading" /></center></div>)}
 
       {dadosIniciais.map((categoria, indice) => {
         if (indice === 0) {
