@@ -5,14 +5,13 @@
 </p> [em progresso]
 
 Projeto desenvolvido durante a Imersão React da [Alura](https://github.com/imersao-alura/)
-# Para compilar e executar via terminal:
+# Para executar via terminal:
 **Clone o repositório**
  
 ```
 git clone https://github.com/nathalia-b/dogflix
 cd dogflix
 ```
-## Como rodar?
 **Digite os comandos:**
 
 ```sh
