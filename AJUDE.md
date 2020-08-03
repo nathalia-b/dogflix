@@ -4,9 +4,13 @@
     </a>
 </p>
 
-# Aqui estão alguns links de projetos que precisam de colaborações:
-
+# Links de projetos que precisam de ajuda:
+##### As ajudas variam. Podem ser em dinheiro, comida, servir como lar solidário, etc. 
 ## Projetos que você pode apoiar:
+
+### Gatinhos da UFRN
+* [Instagram](https://www.instagram.com/gatinhosdaufrn/)
+* [Linktree](https://linktr.ee/gatinhosdaufrn)
 
 ### Abrigo de Animais Au Family 
 * [Instagram](https://www.instagram.com/aufamilyabrigo/) 
