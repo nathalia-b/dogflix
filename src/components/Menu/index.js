@@ -11,6 +11,7 @@ function Menu() {
       <Link to="/">
          <img className="Logo" src={Logo} alt="Dogflix logo" />
       </Link>
+      <img className="Logo" src={Logo} alt="Dogflix logo" />
 
       <Button as={Link} className="ButtonLink" to="/cadastro/video">
         Novo vídeo
