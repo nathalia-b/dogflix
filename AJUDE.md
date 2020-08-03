@@ -4,17 +4,18 @@
     </a>
 </p>
 
-Projeto desenvolvido durante a Imersão React da [Alura](https://github.com/imersao-alura/)
+# Aqui estão alguns links de projetos que precisam de colaborações para se manterem funcionando:
 
-# Projetos que você pode apoiar:
+## Projetos que você pode apoiar:
 
-## Abrigo de Animais Au Family 
+### Abrigo de Animais Au Family 
 * [Instagram](https://www.instagram.com/aufamilyabrigo/) 
 
-## Projeto Acolher Maceió
+### Projeto Acolher Maceió
 
 * [Instagram](https://www.instagram.com/projetoacolher/) 
 
 ## Focinhos de Luz
 * [Facebook](https://facebook.com/focinhosdeluz/)
 * [Instagram](https://www.instagram.com/focinhosdeluz/)
+
