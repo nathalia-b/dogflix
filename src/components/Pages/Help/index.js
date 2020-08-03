@@ -10,7 +10,7 @@ function Help() {
             <h1><center>Quer ajudar doguinhos?</center></h1>
             <h2><center>E outros animaizinhos também?</center></h2>
 
-            <p><center>Aqui estão alguns links de projetos que precisam de colaborações para se manterem funcionando:<br /><br /></center></p>
+            <p><center>Aqui estão alguns links de projetos que precisam de ajuda para se manterem funcionando:<br /><br /></center></p>
             <center><Button>
                 <a href="https://github.com/nathalia-b/dogflix/blob/master/AJUDE.md">Clique aqui para ver os links :)</a>
             </Button></center>
