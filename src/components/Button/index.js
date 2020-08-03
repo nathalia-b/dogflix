@@ -4,10 +4,10 @@ const Button = styled.button`
 
     color: var(--white);
     background: var(--black);
-    border: 1px solid var(--primary);
+    border: 0px solid #161634;
     box-sizing: border-box;
     cursor: pointer;
-    padding: 16px 24px;
+    padding: 9px 7px;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;

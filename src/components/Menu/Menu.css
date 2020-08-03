@@ -8,10 +8,9 @@
   }
 
 .Dog{
-  max-width: 100px;
-  position: fixed;
-  top: 43px; left: 50%;
-  a.color: blue;
+  max-width: 130px;
+  position: relative;
+  top: 25px; left: 17px; 
 }
   @media (max-width: 800px) {
     .Dog {
