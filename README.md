@@ -1,5 +1,7 @@
 <p align="center">
-  <img alt="Logo do projeto" width="400x" src="https://user-images.githubusercontent.com/53409186/89138972-b66e5380-d513-11ea-9a36-57c819eb3c19.png" />
+  <a href="https://dogflix-five.vercel.app/">
+  <img alt="Logo do projeto" width="400x" src="https://user-images.githubusercontent.com/53409186/89138972-b66e5380-d513-11ea-9a36-57c819eb3c19.png">
+    </a>
 </p>
 
 Projeto desenvolvido durante a Imersão React da [Alura](https://github.com/imersao-alura/)
