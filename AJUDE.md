@@ -15,7 +15,8 @@
 
 * [Instagram](https://www.instagram.com/projetoacolher/) 
 
-## Focinhos de Luz
+### Focinhos de Luz
+
 * [Facebook](https://facebook.com/focinhosdeluz/)
 * [Instagram](https://www.instagram.com/focinhosdeluz/)
 
