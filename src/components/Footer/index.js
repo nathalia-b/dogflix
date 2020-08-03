@@ -4,6 +4,7 @@ import Nathalia from '../../assets/img/nathalia-b.png'
 import Alura from '../../assets/img/alura.png'
 import Plus from '../../assets/img/plus.png'
 
+
 function Footer() {
   return (
     <FooterBase>
@@ -14,7 +15,7 @@ function Footer() {
       <a href="https://www.alura.com.br/">
         <img className="Logo2" src={Alura} width="50" height="20" alt="Logo Alura" />
       </a>
-        
+     
       <p>
         Orgulhosamente criado durante a
         {' '}
