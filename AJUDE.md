@@ -8,14 +8,21 @@
 ##### Os projetos são de diversos estados do Brasil e aceitam ajuda de VÁRIAS formas diferentes. Dá uma olhada!
 ## Projetos que você pode apoiar:
 
-### Gatinhos da UFRN
+### Gatinhos da UFRN 
+ 
 * [Instagram](https://www.instagram.com/gatinhosdaufrn/)
 * [Linktree](https://linktr.ee/gatinhosdaufrn)
 
+### Gatil Little Cat
+
+* [Facebook](http://facebook.com/gatillittlecatbygabbyhinestrosa)
+
 ### Patamada
+
 * [Instagram](http://www.instagram.com/patamadaong)
 
 ### Abrigo de Animais Au Family 
+
 * [Instagram](https://www.instagram.com/aufamilyabrigo/) 
 
 ### Projeto Acolher Maceió
@@ -26,4 +33,8 @@
 
 * [Facebook](https://facebook.com/focinhosdeluz/)
 * [Instagram](https://www.instagram.com/focinhosdeluz/)
+
+### Abrigo São Lazaro
+
+* [Instagram](https://www.instagram.com/abrigosaolazaro/)
 
