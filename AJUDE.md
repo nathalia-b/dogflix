@@ -51,3 +51,8 @@
 
 * [Instagram](https://www.instagram.com/abrigosaolazaro/)
 
+### Abrigo Animais Aumigos - Salvador/BA
+
+* [Instagram](https://www.instagram.com/abrigoanimaisaumigos/)
+
+
