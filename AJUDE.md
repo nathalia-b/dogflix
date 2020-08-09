@@ -55,4 +55,8 @@
 
 * [Instagram](https://www.instagram.com/abrigoanimaisaumigos/)
 
+### Instituto Senhores Patas - Parnamirim/RN
+
+* [Instagram](instagram.com/institutosenhorespatas) 
+
 
