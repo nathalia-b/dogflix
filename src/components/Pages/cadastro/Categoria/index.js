@@ -20,8 +20,8 @@ function CadastroCategoria() {
       o segundo quando queremos que aconteça */
      
         const URL = window.location.href.includes('localhost')
-        ? 'https://dogflix.herokuapp.com/categorias'
-        : 'https://dogflix.herokuapp.com/categorias';
+        ? 'https://dogflix.onrender.com/categorias'
+        : 'https://dogflix.onrender.com/categorias';
         fetch(URL)
           .then(async (respostaDoServer) => {
             if (respostaDoServer.ok) {
