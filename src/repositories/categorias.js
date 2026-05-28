@@ -1,6 +1,6 @@
-const URL_CATEGORIES = window.location.href.includes('localhost')
-? 'http://localhost:8080/categorias'
-: 'https://dogflix.herokuapp.com/categorias';
+const URL_CATEGORIES = window.location.href.includes("localhost")
+  ? "http://localhost:8080/categorias"
+  : "https://dogflix.onrender.com/categorias";
 
 function getAll() {
   return fetch(`${URL_CATEGORIES}`)
